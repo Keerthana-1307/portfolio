@@ -1,0 +1,120 @@
+/* Global Styles for the Profile Page */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;  /* Light background */
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+  /* Container for the page content */
+  .container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 40px auto;
+  }
+  
+  /* Header Section Styling */
+  header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  header h1 {
+    font-size: 3em;
+    color: #007BFF;  /* Blue color for header */
+  }
+  
+  header h2 {
+    font-size: 2em;
+    color: #333;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+  }
+  
+  /* Profile Information Box Styling */
+  .profile-info {
+    background-color: #ffffff;  /* White background for profile box */
+    border: 2px solid #007BFF;  /* Blue border for profile box */
+    border-radius: 8px;  /* Rounded corners */
+    padding: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);  /* Subtle shadow for depth */
+    transition: all 0.3s ease-in-out;  /* Smooth hover effect */
+  }
+  
+  /* Profile Info Title Styling */
+  .profile-info h2 {
+    font-size: 1.8em;
+    color: #007BFF;  /* Blue title color */
+    margin-bottom: 10px;
+  }
+  
+  /* Profile Information Paragraph Styling */
+  .profile-info p {
+    font-size: 1.1em;
+    color: #555;  /* Soft gray for text */
+    line-height: 1.6;
+  }
+  
+  /* Hover Effect for Profile Box */
+  .profile-info:hover {
+    transform: translateY(-5px);  /* Slight lift effect */
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);  /* Stronger shadow on hover */
+  }
+  
+  .profile-info:hover h2 {
+    color: #0056b3;  /* Darker blue for hover effect on title */
+  }
+  
+  /* Email Link Styling */
+  .profile-info a {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    text-decoration: none;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: all 0.3s ease;
+  }
+  
+  .profile-info a:hover {
+    background-color: #0056b3;  /* Darker blue when hovered */
+    transform: translateY(-3px);  /* Lift effect on link */
+  }
+  
+  /* Footer Section Styling */
+  .footer {
+    text-align: center;
+    padding: 15px 0;
+    background-color: #f1f1f1;
+    margin-top: 20px;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  /* Responsive Design for Profile Page */
+  @media (max-width: 768px) {
+    .container {
+      width: 95%;
+    }
+  
+    header h1 {
+      font-size: 2.5em;
+    }
+  
+    header h2 {
+      font-size: 1.8em;
+    }
+  
+    .profile-info h2 {
+      font-size: 1.6em;
+    }
+  
+    .profile-info p {
+      font-size: 1em;
+    }
+  }
+  
